@@ -1,0 +1,117 @@
+.App {
+  /* text-align: center; */
+  background-color: black;
+  color: whitesmoke;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+#card-container {
+  background-color: rgb(58, 57, 57);
+  margin-bottom: 15px;
+  border-radius: 2px;
+  border: 1px solid rgb(58, 57, 57);
+}
+
+.mission-label {
+  color: whitesmoke;
+  font-weight: 550;
+  font-size: 17px;
+}
+
+.failure-label {
+  color: rgb(235, 29, 29);
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.success-label {
+  color: rgb(24, 180, 24);
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.date-label {
+  color: rgb(168, 166, 166);
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.date-details {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+#launch-btn {
+  border-radius: 2px;
+  background-color: #282c34;
+  border: 1px solid #282c34;
+  font-weight: 550;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+}
+
+#launch-btn a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.p-container {
+  border: 1px solid rgb(46, 45, 45);
+  background-color: rgb(58, 57, 57);
+  padding: 10px 20px;
+  margin-bottom: 0;
+  border-radius: 2px;
+  color: rgb(182, 177, 177);
+  /* font-weight: 550; */
+  font-size: 15px;
+}
+
+.p-container span {
+  color: whitesmoke;
+  /* font-weight: 550; */
+  /* font-size: 15px; */
+}
+
+.p-container:hover {
+  background-color: rgb(95, 95, 95);
+}
+
+hr {
+  background-color: aliceblue;
+  height: 3px;
+}
+
+.mission-title {
+  color: gray;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.mission-title span {
+  color: whitesmoke;
+  text-transform: uppercase;
+}
